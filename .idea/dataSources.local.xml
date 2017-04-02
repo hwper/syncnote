@@ -11,5 +11,20 @@
       <user-name>root</user-name>
       <resolve-scope>note:</resolve-scope>
     </data-source>
+    <data-source name="@localhost" uuid="cb55bc4b-b370-4104-8689-d57c1333e17b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>root</user-name>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <proxy-host>192.168.1.168</proxy-host>
+        <proxy-port>22</proxy-port>
+        <secret-storage>master_key</secret-storage>
+        <user>pi</user>
+        <use-password>true</use-password>
+        <password>df9bdf98df99df9fdf92</password>
+      </ssh-properties>
+    </data-source>
   </component>
 </project>
